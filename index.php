@@ -58,7 +58,7 @@
                     <td>$row[address]</td>
                     <td>$row[created_at]</td>
                     <td>
-                    <a class='btn btn-primary' href='/myshop/edit.php?id=<?php echo $row[id]; ?>'>Edit</a>
+                        <a class='btn btn-primary' href='/myshop/edit.php?id=$row[id]'>Edit</a>
                         <a class='btn btn-primary' href='/myshop/delete.php?id=$row[id]'>Delete</a>
                     </td>
                 </tr>
